@@ -82,7 +82,7 @@
     }
 
     .products {
-        display: grid;
+        display: grid;                                                
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
     }
@@ -187,7 +187,7 @@ function addProduct() {
         let product = products.find(p => p.id === editId);
         product.title = title;
         product.price = parseFloat(price);
-        product.image = image;
+        product.image = image;       
         product.category = category;
         editId = null;
     } else {
@@ -204,7 +204,6 @@ function addProduct() {
     clearInputs();
     displayProducts();
 }
-
 function displayProducts() {
     let list = document.getElementById("productList");
     list.innerHTML = "";
