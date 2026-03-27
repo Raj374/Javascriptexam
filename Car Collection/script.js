@@ -25,6 +25,28 @@ if (document.getElementById("carForm")) {
         document.getElementById("price").value = car.price;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .............................
     form.addEventListener("submit", function (e) {
         e.preventDefault();
 

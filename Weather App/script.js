@@ -1,4 +1,4 @@
-// ==================== GLOBAL VARIABLES ====================
+
 const searchWrapper = document.getElementById('searchWrapper');
 const searchIcon = document.getElementById('searchIcon');
 const searchInput = document.getElementById('searchInput');
@@ -6,14 +6,14 @@ const toastContainer = document.getElementById('toastContainer');
 const appContainer = document.querySelector('.app-container');
 const weatherEffects = document.getElementById('weatherEffects');
 
-// OpenWeatherMap API Configuration
+
 const API_KEY = '895284fb2d2c50a520ea537456963d9c';
 const API_BASE = 'https://api.openweathermap.org/data/2.5';
 
-// Weather effect intervals
+
 let weatherEffectInterval = null;
 
-// ==================== SEARCH BAR FUNCTIONALITY ====================
+
 
 function toggleSearch() {
     searchWrapper.classList.toggle('active');
